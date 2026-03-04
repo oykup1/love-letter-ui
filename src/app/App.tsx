@@ -68,7 +68,7 @@ export default function App() {
     return;
   }
 
-  const link = `https://valentines-world.vercel.app/game/${data.id}`;
+  const link = `https://love-letter-game.vercel.app/game/${data.id}`;
   setGeneratedLink(link);
   setScreen('link-created');
 };
@@ -178,7 +178,7 @@ export default function App() {
                     boxShadow: selectedPrompts.length === 6 ? '0 6px 20px rgba(212, 102, 139, 0.4)' : 'none',
                   }}
                 >
-                  Generate My World ✨
+                  Write Letters
                 </button>
               </div>
             </div>
@@ -273,7 +273,7 @@ export default function App() {
       <h1 className="text-2xl text-[#d4668b] tracking-wide" style={{ textShadow: '2px 2px 0 rgba(0,0,0,0.1)' }}>
         Your Secret Link Is Ready 💖
       </h1>
-      <p className="text-xs text-[#8b6f47]">Share this link with your Valentine</p>
+      <p className="text-xs text-[#8b6f47]">Share this link with your Crush</p>
     </div>
 
     {/* Sparkles decoration */}
