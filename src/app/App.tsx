@@ -68,7 +68,7 @@ export default function App() {
     return;
   }
 
-  const link = `https://love-letter-game.vercel.app/game/${data.id}`;
+  const link = `https://interactive-love-letter.vercel.app/game/${data.id}`;
   setGeneratedLink(link);
   setScreen('link-created');
 };
